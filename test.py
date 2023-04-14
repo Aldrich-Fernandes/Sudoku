@@ -1,3 +1,2 @@
-file = open("puzzle1S.txt", "r")
-print(file.read())
-file.close()
+a = "12345"
+print(a[::-1])
