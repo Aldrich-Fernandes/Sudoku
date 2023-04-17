@@ -23,6 +23,7 @@ def LoadPuzzleFile(PuzzleName, Puzzle):
 			CellInfo = CellInfo[:-1]
 			Line += 1
 		FileIn.close()
+		
 		if Line == 0:
 			print("Puzzle file empty")
 			OK = False
