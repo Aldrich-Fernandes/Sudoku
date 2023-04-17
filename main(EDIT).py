@@ -178,7 +178,7 @@ def SolvePuzzle(PuzzleGrid, Puzzle, Answer):
 				InputError = True
 			else:
 				Digit = CellInfo[2]
-				try:
+				try: 
 					Row = int(CellInfo[0])
 				except:
 					InputError = True
